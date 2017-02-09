@@ -282,7 +282,7 @@ def predwrite(D,num_opts,wtlist):
 ### SAMPLE USE ###
 # assumes subdirectory called 'texts' with a document called 'strunk' in it
 
-strunk = makedict('strunk1918')
+strunk = makedict('strunk1918.txt')
 predwrite(strunk,20,[.0000001,2,1,10])
 
 
